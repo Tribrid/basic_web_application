@@ -1,0 +1,92 @@
+body,html{
+	height:100%;
+	margin:0; 
+	font-family: "Times New Roman"
+}
+.backg{
+	background-image: url("wp1849405thelionkingwallpapers.jpg");
+	position:absolute;
+	top:0;
+	width:100%;
+	overflow-x:auto;
+	height:calc(100vh);
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: auto;
+	top: relative;
+	width: relative;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+
+}
+li {
+	float: left;
+}
+li a, .dropbtn{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover,
+.dropdown:hover
+.dropbtn
+{
+	background-color: red;
+}
+li.dropdown{
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.dropdown-content a:hover{
+	background-color: #f1f1f1
+}
+.dropdown:hover
+.dropdown-content{
+	display: block;
+}
+h1{
+	text-align: center;
+}
+#imgbox{ 
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: 5%;
+	position: relative;
+	width:50%;
+	height: auto;
+	padding: 15px;
+	/*background:rgba(225,225,225,0.5);*/
+	box-shadow: 5px 10px 18px #888888;
+	}
+#imgbord{ 
+	margin-top: auto;
+	margin-right: 5%;
+	margin-left: auto;
+	position: relative;
+	width:50%;
+	height: auto;
+	padding: 15px;
+	box-shadow: 5px 10px 18px #888888;
+	}
